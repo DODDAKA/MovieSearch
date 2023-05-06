@@ -22,7 +22,7 @@ function MovieSearch() {
 
   return (
     <div className="movie-search-container">
-      <h1 className="movie-search-header">Movie Search</h1>
+      <h1 className="movie-search-header">Movie Search- Naveen Kumar Doddaka</h1>
       <input type="text" placeholder="Search for a movie" value={query} onChange={handleChange} className="movie-search-input" />
       <ul className="movie-search-results">
         {myresults.map(result => (
